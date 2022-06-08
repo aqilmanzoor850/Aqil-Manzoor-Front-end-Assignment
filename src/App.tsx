@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AutoCompleteContainer from "./Container";
+import "./App.css";
+import useCountry from "./hooks/useCountryInput";
 
 function App() {
+  const {
+    countryValue,
+    handleCountryChange,
+    filteredCountries,
+    handleCountryPress,
+    handleSubmit,
+  } = useCountry();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AutoCompleteContainer
+      countryValue={countryValue}
+      handleCountryChange={handleCountryChange}
+      filteredCountries={filteredCountries}
+      handleCountryPress={handleCountryPress}
+      handleSubmit={handleSubmit}
+    />
   );
 }
 
