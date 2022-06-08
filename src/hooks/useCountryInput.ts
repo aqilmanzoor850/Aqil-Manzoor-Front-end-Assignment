@@ -12,7 +12,11 @@ const useCountry = () => {
         -1
     );
     setCountryValue(event.currentTarget.value);
-    setFilterdCountries(filteredCountries);
+    if (event.currentTarget.value.length === 0) {
+      setFilterdCountries([]);
+    } else {
+      setFilterdCountries(filteredCountries);
+    }
   };
   const handleCountryPress = (country: string = "") => {
     setCountryValue(country);
