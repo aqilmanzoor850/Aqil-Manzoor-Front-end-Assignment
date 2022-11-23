@@ -1,0 +1,52 @@
+.rectangleIcon {
+  position: absolute;
+  top: 20px;
+  left: 93px;
+  width: 186px;
+  height: 200px;
+  object-fit: cover;
+}
+.rectangleButton,
+.rectangleInput,
+.rectangleInput1 {
+  border: 0;
+  background-color: var(--color-gray-300);
+  position: absolute;
+  top: 286px;
+  left: 49px;
+  width: 275px;
+  height: 40px;
+}
+.rectangleButton,
+.rectangleInput1 {
+  top: 351px;
+  height: 38px;
+}
+.rectangleButton {
+  cursor: pointer;
+  padding: 0;
+  top: 431px;
+  left: 117px;
+  width: 139px;
+  height: 39px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 498px;
+  left: 79px;
+  background: linear-gradient(180deg, #831616, rgba(217, 217, 217, 0));
+  width: 237px;
+  height: 105px;
+}
+.iPhone1313Pro1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1200px) {
+  .rectangleDiv {
+    background: linear-gradient(#fff, #fff), #1b3b5a;
+  }
+}
