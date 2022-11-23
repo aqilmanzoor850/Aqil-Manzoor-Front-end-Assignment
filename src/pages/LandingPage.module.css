@@ -1,0 +1,2472 @@
+@keyframes slit-in-vertical {
+  0% {
+    transform: translateZ(-800px) rotateY(90deg);
+    opacity: 0;
+  }
+  54% {
+    transform: translateZ(-160px) rotateY(87deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateZ(0) rotateY(0);
+  }
+}
+.rectangleIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.scrollDownToContinue {
+  position: absolute;
+  height: 8.01%;
+  width: 19.47%;
+  top: 85.69%;
+  left: 40.13%;
+  line-height: 47.17px;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupIcon {
+  position: absolute;
+  height: 5.45%;
+  width: 2.23%;
+  top: 93.02%;
+  right: 49.03%;
+  bottom: 1.53%;
+  left: 48.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.span {
+  color: var(--color-orange);
+}
+.tHECOUNTER70Countries1036 {
+  position: absolute;
+  height: 7.5%;
+  width: 41.38%;
+  top: 21.12%;
+  left: 29.14%;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-lato);
+}
+.leaveYourMark {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.overTheWorld {
+  margin: 0;
+}
+.leaveYourMarkOnAllOverTh {
+  position: absolute;
+  height: 30.49%;
+  width: 72.04%;
+  top: 31.01%;
+  left: 13.84%;
+  font-size: 64px;
+  line-height: 89px;
+  font-weight: 800;
+  font-family: var(--font-lato);
+  white-space: pre-wrap;
+  text-align: center;
+  display: inline-block;
+}
+.rectangleButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-blue-100);
+  position: absolute;
+  height: 94.75%;
+  width: 16.64%;
+  top: 5.25%;
+  right: 83.36%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+}
+.homeDiv {
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameA,
+.frameA1,
+.frameDiv3 {
+  position: absolute;
+  height: 86.14%;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+}
+.frameDiv3 {
+  width: 7.92%;
+  top: 0;
+  right: 87.72%;
+  bottom: 13.86%;
+  left: 4.36%;
+  background-color: transparent;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-white);
+}
+.frameA,
+.frameA1 {
+  text-decoration: none;
+  width: 13.15%;
+  top: 5.74%;
+  right: 42.55%;
+  bottom: 8.12%;
+  left: 44.3%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+.frameA:hover {
+  background-color: #5a66ed;
+  cursor: pointer;
+}
+.frameA:active {
+  background-color: #0f1ff4;
+  cursor: pointer;
+}
+.frameA1 {
+  width: 10.87%;
+  top: 8.61%;
+  right: 64.56%;
+  bottom: 5.25%;
+  left: 24.56%;
+  cursor: pointer;
+}
+.frameA1:hover {
+  background-color: #5664ce;
+}
+.frameA1:active {
+  background-color: #1e29e9;
+}
+.contactDiv,
+.tipsA {
+  position: absolute;
+  line-height: 14px;
+  font-weight: 500;
+  display: inline-block;
+}
+.tipsA {
+  text-decoration: none;
+  top: 24.41%;
+  left: 71.28%;
+  color: inherit;
+}
+.contactDiv {
+  top: 15.79%;
+  left: 92.35%;
+}
+.groupDiv1,
+.logoIcon {
+  position: absolute;
+  height: 62.56%;
+  width: 59.74%;
+  top: 18.86%;
+  right: 0.64%;
+  bottom: 18.57%;
+  left: 39.62%;
+}
+.logoIcon {
+  height: 100%;
+  width: 10.67%;
+  top: 0;
+  right: 89.33%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.navigationBarDiv {
+  align-self: stretch;
+  position: relative;
+  height: 55.67px;
+  flex-shrink: 0;
+}
+.frameDiv2 {
+  position: absolute;
+  top: 17px;
+  left: 73px;
+  width: 1247px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--b2-size);
+  color: var(--color-orange);
+}
+.rectangleDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: var(--color-blue-100);
+}
+.primaryDiv {
+  position: absolute;
+  top: 31.25%;
+  left: 23.61%;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.buttonPrimaryDefault {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  height: 14.48%;
+  width: 15.16%;
+  top: 66.1%;
+  right: 42.56%;
+  bottom: 19.42%;
+  left: 42.28%;
+  opacity: 1;
+}
+.buttonPrimaryDefault.animate {
+  animation: 1s ease 0s 1 normal backwards slit-in-vertical;
+}
+.groupDiv {
+  position: relative;
+  width: 1438px;
+  height: 587px;
+  flex-shrink: 0;
+}
+.frameDiv,
+.frameDiv1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--b2);
+}
+.basicLocation {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.rectangleDiv1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.aboutMeH5 {
+  margin: 0;
+  position: absolute;
+  height: 6.9%;
+  width: 32.49%;
+  top: 0.47%;
+  left: 34.8%;
+  font-size: inherit;
+  line-height: 51.39px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.rectangleIcon1 {
+  position: absolute;
+  height: 49.13%;
+  width: 83.04%;
+  top: 9.32%;
+  right: 8.27%;
+  bottom: 41.55%;
+  left: 8.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.loremIpsumDolorSitAmetCo {
+  margin: 0;
+  position: absolute;
+  height: 21.91%;
+  width: 82.83%;
+  top: 59.87%;
+  left: 8.72%;
+  font-size: 16.38px;
+  line-height: 20.64px;
+  font-weight: 500;
+  display: inline-block;
+}
+.aboutMe {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 438.23px;
+  height: 598px;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+.rectangleDiv2 {
+  position: absolute;
+  height: 100%;
+  width: 98.6%;
+  top: 0;
+  right: 1.4%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.aTravelersGuideToPenang {
+  margin: 0;
+  position: absolute;
+  height: 14.27%;
+  width: 96.85%;
+  top: 59.86%;
+  left: 3.15%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.rectangleIcon2 {
+  position: absolute;
+  height: 52.55%;
+  width: 98.6%;
+  top: 0.12%;
+  right: 1.4%;
+  bottom: 47.33%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rectangleDiv3 {
+  position: absolute;
+  height: 3.71%;
+  width: 0.76%;
+  top: 54.18%;
+  right: 99.24%;
+  bottom: 42.11%;
+  left: 0;
+  background-color: var(--color-orange);
+}
+.july152021TipsAndTric,
+.loremIpsumDolorSitAmetCo1,
+.penangMalaysia {
+  margin: 0;
+  position: absolute;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumDolorSitAmetCo1 {
+  height: 17.4%;
+  width: 86.38%;
+  top: 73.55%;
+  left: 3.15%;
+  font-size: var(--font-size-base);
+}
+.july152021TipsAndTric,
+.penangMalaysia {
+  top: 92%;
+  left: 7.05%;
+}
+.july152021TipsAndTric {
+  height: 3.94%;
+  width: 35.76%;
+  top: 54.06%;
+  left: 3.15%;
+  line-height: 33.81px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 2.9%;
+  width: 2.36%;
+  top: 92.81%;
+  right: 94.49%;
+  bottom: 4.29%;
+  left: 3.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lineDiv,
+.malaysiaDiv {
+  position: absolute;
+  width: 90.54%;
+  top: 90.81%;
+  right: 6.31%;
+  left: 3.15%;
+  height: 0;
+}
+.malaysiaDiv {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.comment52Div {
+  position: absolute;
+  width: 14.39%;
+  top: 92.92%;
+  left: 81.15%;
+  font-weight: 500;
+  display: inline-block;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 1.86%;
+  width: 2.93%;
+  top: 93.39%;
+  right: 20.51%;
+  bottom: 4.76%;
+  left: 76.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.aTravelerGuide {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 794.12px;
+  height: 862px;
+  flex-shrink: 0;
+}
+.primaryDiv1 {
+  position: absolute;
+  top: 31.25%;
+  left: 29.12%;
+  font-size: var(--b2-size);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.buttonPrimaryDefault1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  box-shadow: var(--gg);
+  width: 182px;
+  height: 71px;
+  flex-shrink: 0;
+}
+.categoriesB {
+  position: absolute;
+  height: 6.9%;
+  width: 32.49%;
+  top: 2.82%;
+  left: 34.8%;
+  line-height: 51.39px;
+  display: inline-block;
+}
+.aboutMe1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+}
+.otherDiv {
+  height: 95%;
+  width: 20.05%;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.div,
+.groupDiv3,
+.otherDiv {
+  position: absolute;
+}
+.div {
+  height: 95%;
+  width: 13.64%;
+  top: 5%;
+  left: 86.36%;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv3 {
+  height: 7.03%;
+  width: 83.07%;
+  top: 80.32%;
+  right: 7.16%;
+  bottom: 12.65%;
+  left: 9.77%;
+}
+.div1,
+.guidesForTraveler {
+  position: absolute;
+  height: 100%;
+  width: 57.75%;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.div1 {
+  width: 13.64%;
+  left: 86.36%;
+}
+.groupDiv4 {
+  position: absolute;
+  height: 6.68%;
+  width: 83.07%;
+  top: 70.3%;
+  right: 7.16%;
+  bottom: 23.02%;
+  left: 9.77%;
+}
+.cuisineDiv {
+  position: absolute;
+  height: 100%;
+  width: 26.74%;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv5 {
+  position: absolute;
+  height: 6.15%;
+  width: 83.07%;
+  top: 60.81%;
+  right: 7.16%;
+  bottom: 33.04%;
+  left: 9.77%;
+}
+.beautyOfSeas {
+  position: absolute;
+  height: 100%;
+  width: 49.47%;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv6,
+.groupDiv7 {
+  position: absolute;
+  height: 6.68%;
+  width: 83.07%;
+  top: 51.14%;
+  right: 7.16%;
+  bottom: 42.18%;
+  left: 9.77%;
+}
+.groupDiv7 {
+  top: 41.48%;
+  bottom: 51.85%;
+}
+.div5,
+.mountainsDiv {
+  position: absolute;
+  height: 97.44%;
+  width: 32.35%;
+  top: 2.56%;
+  left: 0;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.div5 {
+  height: 71.79%;
+  width: 13.64%;
+  top: 0;
+  left: 86.36%;
+}
+.groupDiv8 {
+  position: absolute;
+  height: 6.85%;
+  width: 83.07%;
+  top: 31.63%;
+  right: 7.16%;
+  bottom: 61.51%;
+  left: 9.77%;
+}
+.groupDiv9,
+.p {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.p {
+  margin: 0;
+  width: 13.64%;
+  left: 86.36%;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.groupDiv9 {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frameDiv4,
+.lineDiv1 {
+  position: absolute;
+  top: 124px;
+  left: 44px;
+  width: 374px;
+  height: 38px;
+}
+.lineDiv1 {
+  width: 99.5%;
+  top: 14.76%;
+  right: 0.5%;
+  left: 0;
+  height: 0;
+}
+.groupDiv2 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 450.23px;
+  height: 569px;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+}
+.rectangleDiv6 {
+  position: absolute;
+  height: 99.36%;
+  width: 48.17%;
+  top: 0;
+  right: 51.7%;
+  bottom: 0.64%;
+  left: 0.13%;
+  background-color: var(--color-white);
+}
+.haveYouReadTheBeachByAle {
+  position: absolute;
+  height: 14.18%;
+  width: 47.31%;
+  top: 59.48%;
+  left: 1.67%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  display: inline-block;
+}
+.rectangleDiv7 {
+  position: absolute;
+  height: 3.69%;
+  width: 0.37%;
+  top: 45.09%;
+  right: 99.5%;
+  bottom: 51.22%;
+  left: 0.13%;
+  background-color: var(--color-orange);
+}
+.georgiaDiv,
+.september172021TipsTr {
+  position: absolute;
+  height: 9.22%;
+  width: 14.33%;
+  top: 90.78%;
+  left: 5.59%;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.september172021TipsTr {
+  margin: 0;
+  height: 3.9%;
+  width: 42.22%;
+  top: 44.31%;
+  left: 1.66%;
+  line-height: 33.81px;
+}
+.lineDiv2,
+.rectangleDiv8 {
+  position: absolute;
+  width: 44.23%;
+  top: 90.22%;
+  right: 54.1%;
+  left: 1.66%;
+  height: 0;
+}
+.rectangleDiv8 {
+  height: 99.36%;
+  width: 48.17%;
+  top: 0;
+  right: 0.68%;
+  bottom: 0.64%;
+  left: 51.15%;
+  background-color: var(--color-white);
+}
+.theWriterActuallyLiveInPh {
+  position: absolute;
+  height: 14.18%;
+  width: 47.31%;
+  top: 59.48%;
+  left: 52.69%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  display: inline-block;
+}
+.rectangleDiv9 {
+  position: absolute;
+  height: 3.69%;
+  width: 0.37%;
+  top: 45.25%;
+  right: 48.48%;
+  bottom: 51.06%;
+  left: 51.15%;
+  background-color: var(--color-orange);
+}
+.georgiaDiv1,
+.september172021TipsTr1 {
+  position: absolute;
+  height: 9.22%;
+  width: 14.33%;
+  top: 90.78%;
+  left: 56.23%;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.september172021TipsTr1 {
+  height: 3.9%;
+  width: 42.22%;
+  top: 44.31%;
+  left: 52.68%;
+  line-height: 33.81px;
+}
+.lineDiv3 {
+  position: absolute;
+  width: 44.23%;
+  top: 90.22%;
+  right: 3.08%;
+  left: 52.68%;
+  height: 0;
+}
+.image4Icon,
+.vectorIcon2,
+.vectorIcon3 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image4Icon {
+  height: 41.81%;
+  width: 48.34%;
+  top: 0;
+  right: 51.66%;
+  bottom: 58.19%;
+  left: 0;
+  object-fit: cover;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  height: 4.06%;
+  width: 2.39%;
+  top: 92.04%;
+  right: 44.93%;
+  bottom: 3.9%;
+  left: 52.68%;
+}
+.vectorIcon3 {
+  top: 92.67%;
+  right: 95.57%;
+  bottom: 3.28%;
+  left: 2.04%;
+}
+.comment52Div1,
+.comment52P {
+  position: absolute;
+  width: 14.58%;
+  top: 93.14%;
+  left: 31.3%;
+  font-weight: 500;
+  display: inline-block;
+}
+.comment52P {
+  margin: 0;
+  left: 82.32%;
+}
+.image5Icon,
+.vectorIcon4,
+.vectorIcon5 {
+  position: absolute;
+  height: 2.5%;
+  width: 2.97%;
+  top: 93.76%;
+  right: 70.37%;
+  bottom: 3.74%;
+  left: 26.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image5Icon,
+.vectorIcon5 {
+  right: 19.35%;
+  left: 77.68%;
+}
+.image5Icon {
+  height: 42.28%;
+  width: 48.09%;
+  top: 0;
+  right: 0.77%;
+  bottom: 57.72%;
+  left: 51.15%;
+  object-fit: cover;
+}
+.travellingCardDiv {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 784px;
+  height: 641px;
+  flex-shrink: 0;
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 4.32%;
+  width: 3.86%;
+  top: 87.22%;
+  right: 82.74%;
+  bottom: 8.46%;
+  left: 13.39%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangleDiv10 {
+  position: absolute;
+  height: 21.1%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 78.9%;
+  left: 0;
+  background-color: var(--color-white);
+}
+.popularPostB {
+  position: absolute;
+  height: 8.68%;
+  width: 47.87%;
+  top: 6.31%;
+  left: 30.56%;
+  line-height: 46.98px;
+  display: inline-block;
+  color: var(--color-black);
+}
+.image6Icon,
+.rectangleIcon3 {
+  position: absolute;
+  height: 71.79%;
+  top: 28.21%;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image6Icon {
+  width: 99.1%;
+  left: 0.9%;
+  object-fit: cover;
+}
+.rectangleIcon3 {
+  width: 100%;
+  left: 0;
+}
+.icbaselineGreaterThanDiv {
+  position: absolute;
+  height: 4.34%;
+  width: 5.39%;
+  top: 82.25%;
+  right: 72.81%;
+  bottom: 13.41%;
+  left: 21.8%;
+  overflow: hidden;
+}
+.findingLoveHomeInTbilisi,
+.september172018TipsTr {
+  position: absolute;
+  height: 17.53%;
+  width: 83.36%;
+  top: 55.62%;
+  left: 8.31%;
+  line-height: 46.98px;
+  display: inline-block;
+}
+.september172018TipsTr {
+  height: 4.54%;
+  width: 89.21%;
+  top: 34.71%;
+  left: 8.09%;
+  font-size: var(--font-size-base);
+  line-height: 33.81px;
+  font-weight: 500;
+  color: var(--color-white);
+}
+.rectangleDiv11,
+.rectangleDiv12 {
+  position: absolute;
+  height: 9.86%;
+  width: 9.21%;
+  top: 80.67%;
+  right: 82.7%;
+  bottom: 9.47%;
+  left: 8.09%;
+  background-color: var(--color-white);
+}
+.rectangleDiv12 {
+  right: 68.99%;
+  left: 21.8%;
+}
+.vectorIcon7,
+.vectorIcon8 {
+  position: absolute;
+  height: 2.37%;
+  width: 2.37%;
+  top: 84.42%;
+  right: 86.28%;
+  bottom: 13.21%;
+  left: 11.35%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon8 {
+  width: 2.38%;
+  top: 84.85%;
+  right: 72.88%;
+  bottom: 12.78%;
+  left: 24.74%;
+}
+.groupDiv10 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 445px;
+  height: 507px;
+  flex-shrink: 0;
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-100);
+}
+.findingLoveHomeInTbilisi2 {
+  position: absolute;
+  height: 8.24%;
+  width: 71.39%;
+  top: 59.86%;
+  left: 3.19%;
+  line-height: 46.98px;
+  font-weight: 600;
+  display: inline-block;
+}
+.rectangleDiv14 {
+  position: absolute;
+  height: 3.71%;
+  width: 0.77%;
+  top: 54.18%;
+  right: 99.23%;
+  bottom: 42.11%;
+  left: 0;
+  background-color: var(--color-orange);
+}
+.loremIpsumDolorSitAmetCo2,
+.penangMalaysiaDiv {
+  position: absolute;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.loremIpsumDolorSitAmetCo2 {
+  margin: 0;
+  height: 17.4%;
+  width: 87.61%;
+  top: 70.3%;
+  left: 3.19%;
+  font-size: var(--font-size-base);
+}
+.penangMalaysiaDiv {
+  top: 92%;
+  left: 6.26%;
+  font-size: var(--font-size-xs);
+}
+.vectorIcon9 {
+  position: absolute;
+  height: 2.9%;
+  width: 2.39%;
+  top: 92.92%;
+  right: 94.41%;
+  bottom: 4.18%;
+  left: 3.19%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lineDiv4,
+.malaysiaDiv1 {
+  position: absolute;
+  width: 91.83%;
+  top: 90.81%;
+  right: 4.98%;
+  left: 3.19%;
+  height: 0;
+}
+.malaysiaDiv1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: var(--font-size-2xl);
+}
+.comment52Div2,
+.september172021TipsTr2 {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.september172021TipsTr2 {
+  margin: 0;
+  height: 2.9%;
+  width: 42.27%;
+  top: 53.94%;
+  left: 3.7%;
+  line-height: 33.81px;
+}
+.comment52Div2 {
+  width: 14.6%;
+  top: 92.92%;
+  left: 82.94%;
+}
+.image17Icon,
+.vectorIcon10 {
+  position: absolute;
+  height: 1.86%;
+  width: 2.97%;
+  top: 93.39%;
+  right: 18.74%;
+  bottom: 4.76%;
+  left: 78.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image17Icon {
+  height: 51.39%;
+  width: 100%;
+  top: 0.23%;
+  right: 0;
+  bottom: 48.38%;
+  left: 0;
+  object-fit: cover;
+}
+.groupDiv11 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 783px;
+  height: 862px;
+  flex-shrink: 0;
+}
+.rectangleDiv15 {
+  position: absolute;
+  height: 22.25%;
+  width: 86.24%;
+  top: 0;
+  right: 12.21%;
+  bottom: 77.75%;
+  left: 1.55%;
+  background-color: var(--color-white);
+}
+.recentPostB {
+  position: absolute;
+  height: 9.15%;
+  width: 41.28%;
+  top: 6.24%;
+  left: 27.52%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  display: inline-block;
+}
+.findingLoveHomeInTbilisi3,
+.findingLoveHomeInTbilisi4,
+.findingLoveHomeInTbilisi5 {
+  position: absolute;
+  height: 14.76%;
+  width: 71.9%;
+  top: 34.93%;
+  left: 22.48%;
+  line-height: 30px;
+  font-weight: 600;
+  display: inline-block;
+}
+.findingLoveHomeInTbilisi4,
+.findingLoveHomeInTbilisi5 {
+  top: 60.08%;
+}
+.findingLoveHomeInTbilisi5 {
+  top: 85.24%;
+}
+.september172018TipsTr1,
+.september172018TipsTr2,
+.september172018TipsTr3 {
+  position: absolute;
+  height: 4.78%;
+  width: 76.94%;
+  top: 28.69%;
+  left: 23.06%;
+  font-size: var(--font-size-xs);
+  line-height: 33.81px;
+  font-weight: 500;
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.september172018TipsTr2,
+.september172018TipsTr3 {
+  top: 53.85%;
+}
+.september172018TipsTr3 {
+  top: 79%;
+}
+.image7Icon,
+.image8Icon,
+.image9Icon {
+  position: absolute;
+  height: 16.63%;
+  width: 19.38%;
+  top: 30.56%;
+  right: 79.46%;
+  bottom: 52.81%;
+  left: 1.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image7Icon,
+.image9Icon {
+  top: 56.13%;
+  right: 78.88%;
+  bottom: 27.23%;
+  left: 1.74%;
+}
+.image9Icon {
+  top: 81.29%;
+  bottom: 2.08%;
+}
+.lineDiv5,
+.lineDiv6 {
+  position: absolute;
+  width: 86.82%;
+  top: 77.34%;
+  right: 13.18%;
+  left: 0;
+  height: 0;
+}
+.lineDiv6 {
+  top: 50.94%;
+}
+.groupDiv12 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 516px;
+  height: 481px;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+}
+.gearIUse,
+.whatsInMyBag {
+  position: absolute;
+  height: 8.78%;
+  width: 32.51%;
+  top: 3.58%;
+  left: 34.82%;
+  line-height: 51.39px;
+  display: inline-block;
+}
+.whatsInMyBag {
+  height: 12.17%;
+  width: 57.56%;
+  top: 22.22%;
+  left: 19.56%;
+}
+.aboutMe2,
+.lineDiv7 {
+  position: absolute;
+  right: 0;
+}
+.aboutMe2 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+}
+.lineDiv7 {
+  width: 99.56%;
+  top: 17.2%;
+  left: 0.44%;
+  height: 0;
+}
+.unfortunatelyThereIsNoOn {
+  position: absolute;
+  height: 31.22%;
+  width: 76.67%;
+  top: 41.27%;
+  left: 11.11%;
+  font-size: var(--font-size-base);
+  line-height: 33.81px;
+  font-weight: 300;
+  color: #0b0a0a;
+  display: inline-block;
+}
+.primaryDiv2 {
+  position: absolute;
+  top: 31.25%;
+  left: 25.82%;
+  font-weight: 500;
+  display: inline-block;
+}
+.buttonPrimaryDefaultDiv {
+  position: absolute;
+  height: 18.78%;
+  width: 40.44%;
+  top: 76.72%;
+  right: 30.44%;
+  bottom: 4.5%;
+  left: 29.11%;
+  font-size: var(--b2-size);
+  color: var(--color-white);
+}
+.groupDiv13 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 450px;
+  height: 378px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.wantSpan {
+  color: var(--color-white);
+}
+.meToPurchase {
+  text-decoration: underline;
+}
+.wantMeToPurchaseSomething {
+  position: absolute;
+  height: 28.47%;
+  width: 96.01%;
+  top: 3.06%;
+  left: 3.99%;
+  line-height: 46.98px;
+  display: inline-block;
+}
+.primaryDiv3 {
+  position: absolute;
+  top: 31.25%;
+  left: 26.92%;
+  font-weight: 500;
+  display: inline-block;
+}
+.buttonPrimaryDefaultDiv1 {
+  position: absolute;
+  height: 16.71%;
+  width: 23.42%;
+  top: 71.06%;
+  right: 38.35%;
+  bottom: 12.24%;
+  left: 38.22%;
+  text-align: center;
+  font-size: var(--b2-size);
+  color: var(--color-white);
+}
+.groupDiv14 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 777px;
+  height: 425px;
+  flex-shrink: 0;
+  font-size: 40px;
+  color: var(--color-orange);
+}
+.rectangleDiv19 {
+  position: absolute;
+  height: 21.79%;
+  width: 98.68%;
+  top: 0;
+  right: 0;
+  bottom: 78.21%;
+  left: 1.32%;
+  background-color: var(--color-white);
+}
+.productThatIHave {
+  position: absolute;
+  height: 8.96%;
+  width: 64.47%;
+  top: 6.11%;
+  left: 21.71%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  display: inline-block;
+}
+.appleMacBookAirMJV2ELLA13 {
+  position: absolute;
+  height: 14.46%;
+  width: 72.37%;
+  top: 30.35%;
+  left: 27.63%;
+  line-height: 30px;
+  font-weight: 600;
+  display: inline-block;
+}
+.div6,
+.div7 {
+  height: 4.89%;
+  width: 18.86%;
+  left: 27.63%;
+  color: var(--color-blue-100);
+}
+.div6 {
+  position: absolute;
+  top: 43.79%;
+  line-height: 30px;
+  font-weight: 600;
+  display: inline-block;
+}
+.div7 {
+  top: 67.82%;
+}
+.div7,
+.div8,
+.iphoneXsCaseIphoneXCase,
+.masterSportBandForAppleWr {
+  position: absolute;
+  line-height: 30px;
+  font-weight: 600;
+  display: inline-block;
+}
+.div8 {
+  height: 4.89%;
+  width: 18.86%;
+  top: 93.69%;
+  left: 27.63%;
+  color: var(--color-blue-100);
+}
+.iphoneXsCaseIphoneXCase,
+.masterSportBandForAppleWr {
+  height: 14.46%;
+  width: 70.83%;
+  top: 54.58%;
+  left: 26.97%;
+}
+.masterSportBandForAppleWr {
+  width: 71.71%;
+  top: 80.04%;
+  left: 26.1%;
+}
+.image13Icon,
+.image14Icon,
+.image15Icon {
+  position: absolute;
+  height: 16.29%;
+  width: 23.25%;
+  top: 32.38%;
+  right: 75.44%;
+  bottom: 51.32%;
+  left: 1.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image14Icon,
+.image15Icon {
+  height: 17.31%;
+  top: 56.21%;
+  bottom: 26.48%;
+}
+.image15Icon {
+  height: 18.94%;
+  width: 21.93%;
+  top: 81.06%;
+  bottom: 0;
+  left: 2.63%;
+}
+.lineDiv8,
+.lineDiv9 {
+  position: absolute;
+  width: 98.25%;
+  top: 75.97%;
+  right: 1.32%;
+  left: 0.44%;
+  height: 0;
+}
+.lineDiv9 {
+  top: 51.93%;
+  right: 1.75%;
+  left: 0;
+}
+.groupDiv15,
+.vectorIcon11 {
+  position: relative;
+  flex-shrink: 0;
+}
+.groupDiv15 {
+  box-shadow: var(--gg);
+  width: 456px;
+  height: 491px;
+  font-size: var(--font-size-base);
+}
+.vectorIcon11 {
+  width: 18.75px;
+  height: 42.07px;
+  display: none;
+}
+.rectangleDiv20 {
+  position: absolute;
+  height: 98.72%;
+  width: 48.17%;
+  top: 0;
+  right: 51.7%;
+  bottom: 1.28%;
+  left: 0.13%;
+  background-color: var(--color-white);
+}
+.getAwayFromTheMaddeningCr {
+  position: absolute;
+  height: 14.11%;
+  width: 46.68%;
+  top: 59.06%;
+  left: 1.66%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  display: inline-block;
+}
+.georgiaDiv2,
+.september172021TipsTr3 {
+  position: absolute;
+  height: 9.16%;
+  width: 14.33%;
+  top: 90.84%;
+  left: 5.21%;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.september172021TipsTr3 {
+  height: 3.88%;
+  width: 42.22%;
+  top: 44.02%;
+  left: 1.66%;
+  line-height: 33.81px;
+}
+.lineDiv10,
+.rectangleDiv22 {
+  position: absolute;
+  width: 44.23%;
+  top: 89.13%;
+  right: 54.11%;
+  left: 1.66%;
+  height: 0;
+}
+.rectangleDiv22 {
+  height: 98.72%;
+  width: 48.17%;
+  top: 0;
+  right: 0.68%;
+  bottom: 1.28%;
+  left: 51.15%;
+  background-color: var(--color-white);
+}
+.matsumotoCastleIsConsidered {
+  position: absolute;
+  height: 14.09%;
+  width: 47.31%;
+  top: 59.1%;
+  left: 52.69%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  display: inline-block;
+}
+.rectangleDiv24,
+.rectangleDiv26 {
+  position: absolute;
+  height: 3.66%;
+  width: 0.37%;
+  top: 44.96%;
+  right: 48.48%;
+  bottom: 51.38%;
+  left: 51.15%;
+  background-color: var(--color-orange);
+}
+.rectangleDiv26 {
+  right: 99.25%;
+  left: 0.38%;
+}
+.georgiaDiv4,
+.september172021TipsTr5 {
+  position: absolute;
+  height: 9.16%;
+  width: 14.33%;
+  top: 90.68%;
+  left: 55.85%;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.september172021TipsTr5 {
+  height: 3.88%;
+  width: 42.22%;
+  top: 44.02%;
+  left: 52.68%;
+  line-height: 33.81px;
+}
+.lineDiv12 {
+  position: absolute;
+  width: 44.23%;
+  top: 89.13%;
+  right: 3.09%;
+  left: 52.68%;
+  height: 0;
+}
+.vectorIcon13,
+.vectorIcon15 {
+  position: absolute;
+  height: 4.03%;
+  width: 2.39%;
+  top: 91.63%;
+  right: 45.31%;
+  bottom: 4.34%;
+  left: 52.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon15 {
+  top: 92.25%;
+  right: 95.95%;
+  bottom: 3.72%;
+  left: 1.66%;
+}
+.comment32Div,
+.comment42Div {
+  position: absolute;
+  width: 14.58%;
+  top: 92.25%;
+  left: 30.92%;
+  font-weight: 500;
+  display: inline-block;
+}
+.comment32Div {
+  top: 91.78%;
+  left: 81.94%;
+}
+.image19Icon,
+.image20Icon,
+.vectorIcon16,
+.vectorIcon18 {
+  position: absolute;
+  height: 2.48%;
+  width: 2.97%;
+  top: 92.87%;
+  right: 70.76%;
+  bottom: 4.65%;
+  left: 26.28%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image19Icon,
+.image20Icon,
+.vectorIcon18 {
+  top: 92.4%;
+  right: 19.74%;
+  bottom: 5.12%;
+  left: 77.3%;
+}
+.image19Icon,
+.image20Icon {
+  height: 42.01%;
+  width: 48.21%;
+  top: 0;
+  right: 51.79%;
+  bottom: 57.99%;
+  left: 0;
+  object-fit: cover;
+}
+.image20Icon {
+  height: 41.23%;
+  width: 48.34%;
+  right: 0.77%;
+  bottom: 58.77%;
+  left: 50.89%;
+}
+.groupDiv16 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 784px;
+  height: 645.11px;
+  flex-shrink: 0;
+}
+.rectangleDiv27 {
+  position: absolute;
+  height: 34.85%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 65.15%;
+  left: 0;
+  background-color: var(--color-white);
+}
+.getInTouch {
+  margin: 0;
+  position: absolute;
+  height: 14.33%;
+  width: 49.11%;
+  top: 9.77%;
+  left: 30%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-black);
+  display: inline-block;
+}
+.rectangleDiv28 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: #4056ac;
+}
+.primaryDiv4 {
+  position: absolute;
+  top: 31.25%;
+  left: 50%;
+  font-weight: 500;
+  display: inline-block;
+}
+.buttonPrimaryDefaultDiv2 {
+  position: absolute;
+  height: 23.13%;
+  width: 40.44%;
+  top: 45.28%;
+  right: 53.33%;
+  bottom: 31.6%;
+  left: 6.22%;
+  text-align: center;
+  font-family: var(--b2);
+}
+.rectangleDiv29 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: #fe2c3c;
+}
+.primaryDiv5 {
+  position: absolute;
+  top: 31.25%;
+  left: 26.37%;
+  font-weight: 500;
+  display: none;
+}
+.buttonPrimaryDefaultDiv3 {
+  position: absolute;
+  height: 23.13%;
+  width: 40.44%;
+  top: 76.87%;
+  right: 53.33%;
+  bottom: 0;
+  left: 6.22%;
+  text-align: center;
+  font-family: var(--b2);
+}
+.rectangleDiv30 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: #60b7fe;
+}
+.kSpan {
+  font-weight: 600;
+}
+.followersSpan {
+  font-weight: 500;
+}
+.primaryDiv6 {
+  position: absolute;
+  top: 31.25%;
+  left: 34.62%;
+  line-height: 16px;
+  display: none;
+}
+.buttonPrimaryDefaultDiv4 {
+  position: absolute;
+  height: 23.13%;
+  width: 40.44%;
+  top: 45.28%;
+  right: 6.89%;
+  bottom: 31.6%;
+  left: 52.67%;
+}
+.kFollowersDiv,
+.kLikesDiv,
+.mSubscribersDiv {
+  position: absolute;
+  top: 52.5%;
+  left: 68.22%;
+  line-height: 16px;
+  display: inline-block;
+}
+.kLikesDiv,
+.mSubscribersDiv {
+  top: 83.06%;
+  left: 20.22%;
+}
+.kLikesDiv {
+  height: 10.75%;
+  width: 9.56%;
+  top: 51.79%;
+  left: 23.11%;
+}
+.rectangleDiv31 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  background-color: #e14d93;
+}
+.primaryDiv7 {
+  position: absolute;
+  top: 31.25%;
+  left: 30.77%;
+  font-weight: 500;
+  display: none;
+}
+.buttonPrimaryDefaultDiv5 {
+  position: absolute;
+  height: 23.13%;
+  width: 40.44%;
+  top: 76.87%;
+  right: 6.89%;
+  bottom: 0;
+  left: 52.67%;
+  text-align: center;
+  font-family: var(--b2);
+}
+.akarIconsinstagramFill,
+.akarIconstwitterFill,
+.eiscYoutubeIcon,
+.vectorIcon20 {
+  position: absolute;
+  height: 10.42%;
+  width: 3.56%;
+  top: 52.12%;
+  right: 84.22%;
+  bottom: 37.46%;
+  left: 12.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.akarIconsinstagramFill,
+.akarIconstwitterFill,
+.eiscYoutubeIcon {
+  width: 7.11%;
+  top: 52.44%;
+  right: 36.44%;
+  bottom: 37.13%;
+  left: 56.44%;
+}
+.akarIconsinstagramFill,
+.eiscYoutubeIcon {
+  height: 16.29%;
+  width: 11.11%;
+  top: 80.39%;
+  right: 81.11%;
+  bottom: 3.32%;
+  left: 7.78%;
+}
+.akarIconsinstagramFill {
+  height: 10.42%;
+  width: 7.11%;
+  top: 83.71%;
+  right: 36.89%;
+  bottom: 5.86%;
+  left: 56%;
+}
+.kFollowersDiv1 {
+  position: absolute;
+  top: 83.06%;
+  left: 68.22%;
+  line-height: 16px;
+  display: inline-block;
+}
+.groupDiv17 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 450px;
+  height: 307px;
+  flex-shrink: 0;
+  font-size: var(--b2-size);
+  color: var(--color-white);
+}
+.rectangleDiv32 {
+  position: absolute;
+  height: 98.72%;
+  width: 48.23%;
+  top: 0;
+  right: 51.77%;
+  bottom: 1.28%;
+  left: 0;
+  background-color: var(--color-white);
+}
+.manyBuildingsEspeciallyInJ {
+  position: absolute;
+  height: 14.11%;
+  width: 46.74%;
+  top: 59.06%;
+  left: 1.4%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  display: inline-block;
+}
+.georgiaDiv6,
+.september172021TipsTr7 {
+  position: absolute;
+  height: 9.16%;
+  width: 14.35%;
+  top: 90.84%;
+  left: 5.09%;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.september172021TipsTr7 {
+  height: 3.88%;
+  width: 42.27%;
+  top: 44.02%;
+  left: 1.53%;
+  line-height: 33.81px;
+}
+.lineDiv14,
+.rectangleDiv34 {
+  position: absolute;
+  width: 44.29%;
+  top: 89.13%;
+  right: 54.18%;
+  left: 1.53%;
+  height: 0;
+}
+.rectangleDiv34 {
+  height: 98.72%;
+  width: 48.23%;
+  top: 0;
+  right: 0.68%;
+  bottom: 1.28%;
+  left: 51.09%;
+  background-color: var(--color-white);
+}
+.thereAreRoughly1200Semiwil {
+  margin: 0;
+  position: absolute;
+  height: 14.09%;
+  width: 47.37%;
+  top: 59.1%;
+  left: 52.63%;
+  font-size: var(--font-size-2xl);
+  line-height: 46.98px;
+  font-weight: 700;
+  display: inline-block;
+}
+.rectangleDiv36,
+.rectangleDiv38 {
+  position: absolute;
+  height: 3.66%;
+  width: 0.37%;
+  top: 44.96%;
+  right: 48.54%;
+  bottom: 51.38%;
+  left: 51.09%;
+  background-color: var(--color-orange);
+}
+.rectangleDiv38 {
+  right: 99.37%;
+  left: 0.26%;
+}
+.georgiaP8 {
+  margin: 0;
+}
+.georgiaDiv8,
+.georgiaP8,
+.september172021TipsTr10,
+.september172021TipsTr9 {
+  position: absolute;
+  height: 9.16%;
+  width: 14.35%;
+  top: 90.68%;
+  left: 55.79%;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.september172021TipsTr10,
+.september172021TipsTr9 {
+  height: 3.88%;
+  width: 42.27%;
+  top: 44.02%;
+  left: 52.62%;
+  line-height: 33.81px;
+}
+.september172021TipsTr10 {
+  margin: 0;
+}
+.lineDiv16 {
+  position: absolute;
+  width: 44.29%;
+  top: 89.13%;
+  right: 3.09%;
+  left: 52.62%;
+  height: 0;
+}
+.vectorIcon21,
+.vectorIcon23 {
+  position: absolute;
+  height: 4.03%;
+  width: 2.39%;
+  top: 91.63%;
+  right: 45.37%;
+  bottom: 4.34%;
+  left: 52.24%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon23 {
+  top: 92.25%;
+  right: 96.07%;
+  bottom: 3.72%;
+  left: 1.53%;
+}
+.comment32Div2,
+.comment42Div2 {
+  position: absolute;
+  width: 14.6%;
+  top: 92.25%;
+  left: 30.83%;
+  font-weight: 500;
+  display: inline-block;
+}
+.comment32Div2 {
+  top: 91.78%;
+  left: 81.92%;
+}
+.vectorIcon24,
+.vectorIcon26 {
+  position: absolute;
+  height: 2.48%;
+  width: 2.97%;
+  top: 92.87%;
+  right: 70.85%;
+  bottom: 4.65%;
+  left: 26.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon26 {
+  top: 92.4%;
+  right: 19.76%;
+  bottom: 5.12%;
+  left: 77.27%;
+}
+.groupDiv19 {
+  position: absolute;
+  height: 100%;
+  width: 99.75%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0.25%;
+}
+.image21Icon,
+.image22Icon {
+  position: absolute;
+  height: 41.23%;
+  width: 48.41%;
+  top: 0;
+  right: 51.59%;
+  bottom: 58.77%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image22Icon {
+  height: 41.08%;
+  width: 48.28%;
+  right: 0.51%;
+  bottom: 58.92%;
+  left: 51.21%;
+}
+.eiscFacebookDiv,
+.groupDiv18 {
+  position: relative;
+  box-shadow: var(--gg);
+  width: 785px;
+  height: 645.11px;
+  flex-shrink: 0;
+}
+.eiscFacebookDiv {
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.findingLoveHomeInTbilisi6 {
+  margin: 0;
+  position: absolute;
+  height: 8.24%;
+  width: 71.39%;
+  top: 59.86%;
+  left: 3.19%;
+  font-size: inherit;
+  line-height: 46.98px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.september172021TipsTr11 {
+  position: absolute;
+  height: 2.9%;
+  width: 42.27%;
+  top: 53.94%;
+  left: 3.7%;
+  line-height: 33.81px;
+  font-weight: 500;
+  display: inline-block;
+}
+.image17Icon1 {
+  position: absolute;
+  height: 51.39%;
+  width: 100%;
+  top: 0.12%;
+  right: 0;
+  bottom: 48.49%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.september172021TipsTr12 {
+  height: 3.9%;
+  width: 42.22%;
+  top: 44.31%;
+  left: 1.66%;
+  line-height: 33.81px;
+  font-weight: 500;
+}
+.comment52Div5,
+.followInstagram,
+.september172021TipsTr12 {
+  position: absolute;
+  display: inline-block;
+}
+.comment52Div5 {
+  width: 14.58%;
+  top: 93.14%;
+  left: 82.32%;
+  font-weight: 500;
+}
+.followInstagram {
+  top: -19308.43%;
+  left: -326.13%;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 199px;
+  height: 50px;
+  flex-shrink: 0;
+}
+.span2 {
+  color: var(--color-blue-100);
+}
+.join98641MonthlyReadersS {
+  margin: 0;
+  position: absolute;
+  height: 100%;
+  width: 43.61%;
+  top: 0;
+  left: 0;
+  font-weight: 700;
+  display: inline-block;
+}
+.groupInput,
+.rectangleButton1 {
+  border: 0;
+  position: absolute;
+  top: 0;
+}
+.groupInput {
+  background-color: transparent;
+  height: 53.06%;
+  width: 30.36%;
+  right: 20.24%;
+  bottom: 46.94%;
+  left: 49.4%;
+}
+.rectangleButton1 {
+  cursor: pointer;
+  padding: 0;
+  background-color: var(--color-blue-100);
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.subscribeDiv {
+  position: absolute;
+  height: 39.56%;
+  width: 85.16%;
+  top: 25.27%;
+  left: 7.1%;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 53.06%;
+  width: 18.49%;
+  top: 0;
+  right: 0;
+  bottom: 46.94%;
+  left: 81.51%;
+}
+.groupDiv22 {
+  position: relative;
+  width: 1087px;
+  height: 147px;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+}
+.lineDiv21 {
+  position: absolute;
+  height: 0.28%;
+  width: 100.14%;
+  top: -0.14%;
+  right: -0.07%;
+  bottom: 99.86%;
+  left: -0.07%;
+  border-top: 2px solid #c4c4c4;
+  box-sizing: border-box;
+}
+.rectangleDiv45 {
+  position: absolute;
+  height: 87.86%;
+  width: 100%;
+  top: 12.14%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.68);
+}
+.lineDiv22 {
+  position: absolute;
+  height: 0.15%;
+  width: 100.07%;
+  top: 74.58%;
+  right: -0.03%;
+  bottom: 25.27%;
+  left: -0.03%;
+  border-top: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+}
+.body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.accountB,
+.bodyDiv,
+.travelB {
+  position: absolute;
+  color: var(--color-black);
+}
+.bodyDiv {
+  top: 22px;
+  left: 388px;
+  width: 38px;
+  height: 19px;
+}
+.accountB,
+.travelB {
+  top: 3.97%;
+  left: 61.79%;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.accountB {
+  left: 84.5%;
+}
+.group121 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 149px;
+  height: 63px;
+  object-fit: cover;
+}
+.myCreditsDiv,
+.myInfoDiv,
+.myListDiv,
+.myRequestsDiv,
+.weAreLocationIndependentBl {
+  position: absolute;
+  width: 32.85%;
+  top: 21.48%;
+  left: 0;
+  line-height: 27px;
+  display: inline-block;
+}
+.myCreditsDiv,
+.myInfoDiv,
+.myListDiv,
+.myRequestsDiv {
+  width: 100%;
+  top: 0;
+}
+.myCreditsDiv,
+.myInfoDiv,
+.myRequestsDiv {
+  top: 22.32%;
+}
+.myCreditsDiv,
+.myInfoDiv {
+  top: 44.2%;
+}
+.myInfoDiv {
+  top: 66.07%;
+}
+.groupDiv25 {
+  position: absolute;
+  height: 40.43%;
+  width: 14.91%;
+  top: 21.48%;
+  right: 23.29%;
+  bottom: 38.09%;
+  left: 61.79%;
+}
+.travelingFAQsDiv {
+  position: absolute;
+  width: 100%;
+  top: 87.95%;
+  left: 0;
+  line-height: 27px;
+  display: inline-block;
+}
+.groupDiv26 {
+  position: absolute;
+  height: 40.43%;
+  width: 14.91%;
+  top: 21.48%;
+  right: 0.58%;
+  bottom: 38.09%;
+  left: 84.5%;
+}
+.add221BJohnHopeStreetLe {
+  position: absolute;
+  width: 80.1%;
+  top: 0;
+  left: 1.05%;
+  line-height: 27px;
+  display: inline-block;
+}
+.eInforedexplorerscomDiv,
+.t2347065078544,
+.wWwwRedexplorerscom {
+  position: absolute;
+  width: 86.91%;
+  top: 45.18%;
+  left: 0;
+  line-height: 27px;
+  display: inline-block;
+}
+.eInforedexplorerscomDiv,
+.wWwwRedexplorerscom {
+  width: 100%;
+  top: 66.67%;
+}
+.wWwwRedexplorerscom {
+  top: 88.16%;
+}
+.groupDiv27 {
+  position: absolute;
+  height: 41.16%;
+  width: 18.62%;
+  top: 21.48%;
+  right: 43.57%;
+  bottom: 37.36%;
+  left: 37.82%;
+}
+.redExplorersAllRightsReser {
+  position: absolute;
+  width: 53.31%;
+  top: 17.07%;
+  left: 46.69%;
+  line-height: 27px;
+  display: inline-block;
+}
+.groupIcon1 {
+  position: absolute;
+  height: 48.78%;
+  width: 11.99%;
+  top: 26.83%;
+  right: 61.5%;
+  bottom: 24.39%;
+  left: 26.51%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image2Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 189px;
+  height: 41px;
+  object-fit: cover;
+}
+.groupDiv28 {
+  position: absolute;
+  height: 7.4%;
+  width: 100%;
+  top: 92.6%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bottomBarDiv,
+.groupDiv24 {
+  position: absolute;
+  top: 0;
+  left: 207px;
+  width: 1026px;
+  height: 554px;
+}
+.bottomBarDiv {
+  height: 92.47%;
+  width: 100%;
+  top: 7.53%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.groupDiv23 {
+  position: relative;
+  width: 1440px;
+  height: 704px;
+  flex-shrink: 0;
+  font-size: var(--b2-size);
+  color: var(--color-gray-200);
+  font-family: var(--b2);
+}
+.landingPageDiv {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
